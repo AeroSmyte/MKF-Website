@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #1B1B1E;
+  --accent-red: #F72C25;
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+  overflow-x: hidden;
+}

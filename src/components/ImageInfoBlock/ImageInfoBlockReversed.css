@@ -1,0 +1,44 @@
+.content-container-reversed {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    max-width: 100%;
+    color: white;
+    gap: 1rem;
+    padding: 20px;
+    /* margin: 50px; */
+    
+}
+
+.content-container-reversed img,
+.content-container-reversed .text-content-reversed {
+    margin: 0;
+    padding: 0;
+    align-self: flex-start; 
+}
+
+.content-container-reversed img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.text-content-reversed h1 {
+    font-size: 1.5rem;
+    padding-top: 0px;
+
+}
+
+.text-content-reversed p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media (max-height: 768px) {
+    
+
+    .text-content-reversed p {
+        text-align: left;
+    }
+}

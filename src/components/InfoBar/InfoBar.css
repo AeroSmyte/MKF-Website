@@ -1,0 +1,67 @@
+.info-container {
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.address-label,
+.number-label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+
+.address-label i,
+.number-label i {
+  font-size: 4rem;
+}
+
+
+.address-details h3
+.number-details h3 {
+    font-size: .8rem;
+
+}
+
+.number-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.address-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+@media (min-width: 600px) {
+  .address-details,
+  .number-details {
+    font-size: 1.3rem;
+    padding: 20px;
+  }
+
+  .address-details h3,
+  .number-details h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .address-details,
+  .number-details {
+    font-size: 1.5rem;
+    padding: 30px;
+  }
+
+  .address-details h3,
+  .number-details h3 {
+    font-size: .8rem;
+  }
+}
